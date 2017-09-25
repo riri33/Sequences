@@ -47,12 +47,12 @@ def main():
     #     4. When satisfied with your work, move onto the next test.
     # ------------------------------------------------------------------
 
-#    run_test_print_all_items_forwards(sequence1, sequence2, sequence3, sequence4)
-#    run_test_print_all_items_backwards(sequence1, sequence2, sequence3, sequence4)
-#    run_test_print_items_at_odd_indices(sequence1, sequence2, sequence3, sequence4)
-#    run_test_print_items_in_second_half(sequence1, sequence2, sequence3, sequence4)
-#    run_test_print_items_that_are_bigger_than_5()  # Uses different sequences
-#    run_test_print_items_that_are_strings(sequence1, sequence2, sequence3, sequence4)
+    run_test_print_all_items_forwards(sequence1, sequence2, sequence3, sequence4)
+    run_test_print_all_items_backwards(sequence1, sequence2, sequence3, sequence4)
+    run_test_print_items_at_odd_indices(sequence1, sequence2, sequence3, sequence4)
+    run_test_print_items_in_second_half(sequence1, sequence2, sequence3, sequence4)
+    run_test_print_items_that_are_bigger_than_5()  # Uses different sequences
+    run_test_print_items_that_are_strings(sequence1, sequence2, sequence3, sequence4)
     run_test_print_items_that_are_odd_integers(sequence1, sequence2, sequence3, sequence4)
 
 
@@ -466,7 +466,7 @@ def print_items_that_are_bigger_than_5(sequence):
     # ------------------------------------------------------------------
     for k in range(0, len(sequence)):
         if sequence[k] > 5:
-            print(sequence[k])
+            print(sequence[k], 'is at index', k)
 
 
 
